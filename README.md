@@ -4,27 +4,18 @@
   <br />
   <p><b>A lightweight monorepo command runner with explicit project configuration.</b></p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-  [![Website](https://img.shields.io/badge/Website-isox.sh-blue.svg?style=flat-square)](https://isox.sh)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/Website-isox.sh-blue.svg?style=flat-square)](https://isox.sh)
 </div>
-
-<hr />
 
 ## What is Isox?
 
-Isox is a lightweight monorepo command runner. Each project defines its commands
-in `project.json`, and an `isox.json` marker identifies the workspace root.
-Project definitions are cached in `.isox/workspace.json`, with no background
-daemon. Dependency analysis is cached separately in `.isox/discovery.json` and
-checked when affected selection, an executor, or an opt-in cacheable task needs it. These metadata caches do
-not skip builds or other tasks. See [caching](website/docs/configuration.md#discovery-cache)
-for invalidation rules and when to use `isox reset`.
+Isox helps you work across multiple projects in one repository. Run a single
+project or only what changed, reuse previous results, and distribute work across
+GitHub Actions.
 
-Run individual projects or select affected projects and their dependents from
-Git changes. Native GitHub Actions distribute exact project lists across weighted
-CI jobs. Native targets can opt into [local task caching](website/docs/task-caching.md)
-to restore outputs and replay logs. Prerequisite scheduling and remote caching
-remain on the [roadmap](ROADMAP.md).
+Bring your existing tools, with built-in support for TypeScript, ESLint, Vitest,
+and release versioning.
 
 ## Get started
 
@@ -35,34 +26,20 @@ npm install --save-dev isox
 npx isox init
 ```
 
-Define your project's commands in `project.json`, then run:
+Follow the [getting started guide](website/docs/getting-started.md) to set up your
+first project. Then run commands like:
 
 ```sh
 npx isox build my-app
+npx isox test my-app
+npx isox lint my-app
 ```
 
-Follow the [getting started guide](website/docs/getting-started.md) for a complete example.
+## Learn more
 
-## Documentation
+- [Documentation](https://isox.sh/docs/introduction) — setup, guides, and reference
+- [Roadmap](ROADMAP.md) — what we're building next
+- [Contributing](website/docs/contributing.mdx) — help improve Isox
+- [Issues](https://github.com/isox-sh/isox/issues) — report bugs or suggest ideas
 
-Browse the [documentation](website/README.md) for configuration, CLI usage, executor
-reference, plugin development, and migration guides.
-
-- [CLI reference](website/docs/cli.md)
-- [Affected projects and GitHub Actions](website/docs/affected-and-ci.md)
-- [Workspace and project configuration](website/docs/configuration.md)
-- [Release versioning and changelogs](website/docs/semver.md)
-- [ESLint executor](website/docs/eslint.md)
-- [TypeScript executor](website/docs/typescript.md) and [Vitest executor](website/docs/vitest.md)
-- [Core API](website/docs/core-api.md) and [custom executors](website/docs/custom-executors.md)
-- [Migrating from Nx](website/docs/nx-migration.md) — temporary adapter support for Nx 23
-
-## Contributing
-
-See the [contributing guide](website/docs/contributing.mdx) for development setup, builds,
-tests, and CI. Use [Issues](https://github.com/isox-sh/isox/issues) for individual
-work items and the [roadmap](ROADMAP.md) to find planned work.
-
-## License
-
-Distributed under the [MIT License](LICENSE).
+[MIT licensed](LICENSE).
