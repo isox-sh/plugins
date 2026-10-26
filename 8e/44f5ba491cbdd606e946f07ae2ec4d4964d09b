@@ -1,0 +1,32 @@
+package.json
+  h_b13471b77746e9 1-21
+README.md
+  s_51871bdcdb3b4c::t_d8ea8294a47c3d 1-70
+.github/assets/banner.svg
+  h_b13471b77746e9 1-49
+.gitignore
+  h_b13471b77746e9 1-27
+isox.json
+  h_b13471b77746e9 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8e44f5ba491cbdd606e946f07ae2ec4d4964d09b",
+  "prompts": {},
+  "humans": {
+    "h_b13471b77746e9": {
+      "author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  },
+  "sessions": {
+    "s_51871bdcdb3b4c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16e8d-1b37-7e91-be3e-4c551cf94969",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  }
+}
