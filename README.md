@@ -39,5 +39,3 @@ npx isox lint my-app
 - [Roadmap](ROADMAP.md) — what we're building next
 - [Contributing](website/docs/contributing.mdx) — help improve Isox
 - [Issues](https://github.com/isox-sh/isox/issues) — report bugs or suggest ideas
-
-[MIT licensed](LICENSE).
