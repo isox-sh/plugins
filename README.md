@@ -4,8 +4,6 @@
   <br />
   <p><b>A lightweight monorepo command runner with explicit project configuration.</b></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-isox.sh-blue.svg?style=flat-square)](https://isox.sh)
 </div>
 
 ## What is Isox?
