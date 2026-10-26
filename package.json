@@ -1,0 +1,21 @@
+{
+  "name": "@isox-sh/plugins",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A lightweight monorepo command runner with explicit project configuration.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isox-sh/plugins.git"
+  },
+  "homepage": "https://isox.sh",
+  "bugs": {
+    "url": "https://github.com/isox-sh/plugins/issues"
+  },
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": "^24.0.0 || >=26.0.0"
+  },
+  "devDependencies": {
+  }
+}
