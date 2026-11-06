@@ -16,6 +16,10 @@
   "engines": {
     "node": "^24.0.0 || >=26.0.0"
   },
+  "dependencies": {
+    "@isox-sh/js": "^0.0.1"
+  },
   "devDependencies": {
+    "@isox-sh/cli": "1.0.0-alpha.6"
   }
 }

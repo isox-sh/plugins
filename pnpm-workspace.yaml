@@ -1,0 +1,3 @@
+minimumReleaseAgeExclude:
+  - '@isox-sh/cli@1.0.0-alpha.6'
+  - '@isox-sh/core@1.0.0-alpha.6'
