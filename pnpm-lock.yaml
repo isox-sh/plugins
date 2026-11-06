@@ -165,12 +165,14 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@isox-sh/js':
-        specifier: ^0.0.1
-        version: 0.0.1
     devDependencies:
       '@isox-sh/cli':
+        specifier: 1.0.0-alpha.6
+        version: 1.0.0-alpha.6
+      '@isox-sh/e2e':
+        specifier: 1.0.0-alpha.6
+        version: 1.0.0-alpha.6
+      '@isox-sh/js':
         specifier: 1.0.0-alpha.6
         version: 1.0.0-alpha.6
 
@@ -184,16 +186,16 @@ packages:
     engines: {node: '>=24.0.0'}
     hasBin: true
 
-  '@isox-sh/core@0.0.1':
-    resolution: {integrity: sha512-XQEKvzZKiuDOuo/FBMtoudMvy7/2UNB/lBGMjbtH0d9d+ZyJJalAxfs55fZClyF6wgFAk2bNoDABfbTwceaMdw==}
-    engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
-
   '@isox-sh/core@1.0.0-alpha.6':
     resolution: {integrity: sha512-EY+sk6mkcs1idQSga+6iHBssg2/m6EnEXpmbRh3Oxm35b0idAvAcHajAs0QlKs4mEayrl1ououOPLGJgMLjvAw==}
     engines: {node: '>=24.0.0'}
 
-  '@isox-sh/js@0.0.1':
-    resolution: {integrity: sha512-n3A47MjTzmxCWq16GfkNgJsHTMcUmcA7YnYO0WWVPV5XGbf4PjZC9nqlXygUTRl8thJz7fJi1NOTj/t00+68lg==}
+  '@isox-sh/e2e@1.0.0-alpha.6':
+    resolution: {integrity: sha512-KGZi6RG6aLBfkNKohk01unKgt147jG112QmCYMq1R6elLa41uNNSc0xj5hJBl+Tp4hufaH2YtwyPfs1AdjHPjw==}
+    engines: {node: ^24.0.0 || >=26.0.0}
+
+  '@isox-sh/js@1.0.0-alpha.6':
+    resolution: {integrity: sha512-IDa8sT8AAOIboviAaRysHbN2zBF2EzKmO1tTuuVh51/ql7o8iMFbaSvSZ7r8Tm72Vq2CzNwVkiMbC93OlySeAw==}
     engines: {node: '>=24.0.0'}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -452,11 +454,6 @@ snapshots:
       '@isox-sh/core': 1.0.0-alpha.6
       cac: 7.1.0
 
-  '@isox-sh/core@0.0.1':
-    dependencies:
-      ajv: 8.20.0
-      fast-glob: 3.3.3
-
   '@isox-sh/core@1.0.0-alpha.6':
     dependencies:
       ajv: 8.20.0
@@ -465,9 +462,14 @@ snapshots:
       semver: 7.8.6
       typescript: '@typescript/typescript6@6.0.2'
 
-  '@isox-sh/js@0.0.1':
+  '@isox-sh/e2e@1.0.0-alpha.6':
     dependencies:
-      '@isox-sh/core': 0.0.1
+      '@isox-sh/cli': 1.0.0-alpha.6
+      '@isox-sh/core': 1.0.0-alpha.6
+
+  '@isox-sh/js@1.0.0-alpha.6':
+    dependencies:
+      '@isox-sh/core': 1.0.0-alpha.6
       '@typescript/native': typescript@7.0.2
       ajv: 8.20.0
       fast-glob: 3.3.3
