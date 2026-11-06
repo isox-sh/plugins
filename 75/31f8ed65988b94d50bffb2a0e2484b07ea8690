@@ -1,0 +1,22 @@
+isox.json
+  h_b13471b77746e9 7-14
+packages/react-email/project.json
+  h_b13471b77746e9 1-12
+packages/react-email/src/index.ts
+  h_b13471b77746e9 1
+packages/react-email/tsconfig.build.json
+  h_b13471b77746e9 1-11
+tsconfig.base.json
+  h_b13471b77746e9 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7531f8ed65988b94d50bffb2a0e2484b07ea8690",
+  "prompts": {},
+  "humans": {
+    "h_b13471b77746e9": {
+      "author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  }
+}
