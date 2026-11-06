@@ -1,0 +1,31 @@
+package.json
+  h_b13471b77746e9 23
+  s_f1f706e36c92d8::t_16987915b5e8d1 19-21
+pnpm-lock.yaml
+  s_f1f706e36c92d8::t_bc544b45c2056c 1-663
+isox.json
+  h_b13471b77746e9 2-7
+pnpm-workspace.yaml
+  h_b13471b77746e9 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "32fb2004506d9f232753564efd6e8b00eed45c2f",
+  "prompts": {},
+  "humans": {
+    "h_b13471b77746e9": {
+      "author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  },
+  "sessions": {
+    "s_f1f706e36c92d8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1b2a6-9097-7783-8603-99a3fb4cb7c9",
+        "model": "unknown"
+      },
+      "human_author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  }
+}
