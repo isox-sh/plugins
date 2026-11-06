@@ -1,0 +1,12 @@
+{
+  "name": "react-email",
+  "targets": {
+    "build": {
+      "executor": "js:tsc",
+      "options": {
+        "tsConfig": "./packages/react-email/tsconfig.build.json"
+      }
+    }
+  },
+  "tags": []
+}

@@ -4,5 +4,13 @@
     "default": [
       "{projectRoot}/**/*"
     ]
+  },
+  "targetDefaults": {
+    "js:tsc": {
+      "cache": true,
+      "outputs": [
+        "{workspaceRoot}/dist/{projectRoot}"
+      ]
+    }
   }
 }
