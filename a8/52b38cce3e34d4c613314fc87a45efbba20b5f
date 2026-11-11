@@ -1,0 +1,27 @@
+packages/gcp-storage/project.json
+  s_ea58576ffb5f0e::t_03370603d43432 1-12
+packages/gcp-storage/src/index.ts
+  s_ea58576ffb5f0e::t_5590c1983a0a2a 1
+packages/gcp-storage/tsconfig.build.json
+  s_ea58576ffb5f0e::t_0560a770f7eab3 1-11
+packages/gcp-storage/tsconfig.json
+  s_ea58576ffb5f0e::t_5fbfe936485bbe 1-11
+tsconfig.base.json
+  s_ea58576ffb5f0e::t_55d7fa2c9845c5 24-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a852b38cce3e34d4c613314fc87a45efbba20b5f",
+  "prompts": {},
+  "sessions": {
+    "s_ea58576ffb5f0e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cbcf-ba9d-72b2-8ac6-434d26199249",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  }
+}
