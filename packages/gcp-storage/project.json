@@ -1,0 +1,12 @@
+{
+  "name": "gcp-storage",
+  "targets": {
+    "build": {
+      "executor": "js:tsc",
+      "options": {
+        "tsConfig": "./packages/gcp-storage/tsconfig.build.json"
+      }
+    }
+  },
+  "tags": []
+}

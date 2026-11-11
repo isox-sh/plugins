@@ -1,0 +1,12 @@
+{
+  "name": "gcp-cloud-run",
+  "targets": {
+    "build": {
+      "executor": "js:tsc",
+      "options": {
+        "tsConfig": "./packages/gcp-cloud-run/tsconfig.build.json"
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,3 +1,16 @@
 {
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*"
+    ]
+  },
+  "targetDefaults": {
+    "js:tsc": {
+      "cache": true,
+      "outputs": [
+        "{workspaceRoot}/dist/{projectRoot}"
+      ]
+    }
+  }
 }

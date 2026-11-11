@@ -1,0 +1,12 @@
+{
+  "name": "vercel",
+  "targets": {
+    "build": {
+      "executor": "js:tsc",
+      "options": {
+        "tsConfig": "./packages/vercel/tsconfig.build.json"
+      }
+    }
+  },
+  "tags": []
+}
