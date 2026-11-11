@@ -15,6 +15,9 @@
       ],
       "@isox-sh/pulumi": [
         "./packages/pulumi/src/index.ts"
+      ],
+      "@isox-sh/gcp-cloud-run": [
+        "./packages/gcp-cloud-run/src/index.ts"
       ]
     }
   }
