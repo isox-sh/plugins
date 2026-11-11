@@ -1,0 +1,19 @@
+tsconfig.base.json
+  s_ea58576ffb5f0e::t_6d8cb617729451 12-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "df35f10aa75c5ca00ea9a74926e002fc0961274f",
+  "prompts": {},
+  "sessions": {
+    "s_ea58576ffb5f0e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cbcf-ba9d-72b2-8ac6-434d26199249",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  }
+}
