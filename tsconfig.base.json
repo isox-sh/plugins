@@ -18,6 +18,9 @@
       ],
       "@isox-sh/gcp-cloud-run": [
         "./packages/gcp-cloud-run/src/index.ts"
+      ],
+      "@isox-sh/gcp-functions": [
+        "./packages/gcp-functions/src/index.ts"
       ]
     }
   }

@@ -1,0 +1,12 @@
+{
+  "name": "gcp-functions",
+  "targets": {
+    "build": {
+      "executor": "js:tsc",
+      "options": {
+        "tsConfig": "./packages/gcp-functions/tsconfig.build.json"
+      }
+    }
+  },
+  "tags": []
+}
