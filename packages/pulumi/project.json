@@ -1,0 +1,12 @@
+{
+  "name": "pulumi",
+  "targets": {
+    "build": {
+      "executor": "js:tsc",
+      "options": {
+        "tsConfig": "./packages/pulumi/tsconfig.build.json"
+      }
+    }
+  },
+  "tags": []
+}

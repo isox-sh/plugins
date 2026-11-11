@@ -12,6 +12,9 @@
       ],
       "@isox-sh/vercel": [
         "./packages/vercel/src/index.ts"
+      ],
+      "@isox-sh/pulumi": [
+        "./packages/pulumi/src/index.ts"
       ]
     }
   }
