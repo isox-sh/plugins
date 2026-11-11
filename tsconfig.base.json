@@ -9,6 +9,9 @@
     "paths": {
       "@isox-sh/react-email": [
         "./packages/react-email/src/index.ts"
+      ],
+      "@isox-sh/vercel": [
+        "./packages/vercel/src/index.ts"
       ]
     }
   }
