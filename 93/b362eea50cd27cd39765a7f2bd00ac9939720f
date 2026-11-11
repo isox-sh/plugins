@@ -1,0 +1,27 @@
+packages/pulumi/project.json
+  s_ea58576ffb5f0e::t_94945f3a5b9776 1-12
+packages/pulumi/src/index.ts
+  s_ea58576ffb5f0e::t_4198a6bd90026f 1
+packages/pulumi/tsconfig.build.json
+  s_ea58576ffb5f0e::t_f248ef8cf2cd5e 1-11
+packages/pulumi/tsconfig.json
+  s_ea58576ffb5f0e::t_8c966ec44b046f 1-11
+tsconfig.base.json
+  s_ea58576ffb5f0e::t_75f23c25a2346b 15-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "93b362eea50cd27cd39765a7f2bd00ac9939720f",
+  "prompts": {},
+  "sessions": {
+    "s_ea58576ffb5f0e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cbcf-ba9d-72b2-8ac6-434d26199249",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Tycho Bokdam <tycho@palmtreecoding.com>"
+    }
+  }
+}
